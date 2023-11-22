@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.bell{
+    font-size: 50px;
+}
+
+.blog{
+    color: #4862EA;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container h1{
+    margin-left: 40px;
+}
+
+#news-container{
+    
+    margin-left: 50px;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns:  400px 400px 400px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+}
+
+.h2{
+ margin-top: 100px;
+}
+
+.key{
+    margin-top: 100px;
+}
+
+.btn{
+    margin-left: 50px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #4862EA;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+}
+
+
+
+
+@media screen and (max-width:600px)  {
+    .container{
+        margin-bottom: 3600px;
+    }
+    #news-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+  }
+
+  .containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
