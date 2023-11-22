@@ -2,7 +2,7 @@ function setArticles(articles) {
     const newsContainer = document.getElementById('news-container');
     newsContainer.innerHTML = ''; // Clear existing content
 
-    articles.forEach(article => {
+    articles?.forEach(article => {
         const div = document.createElement('div');
         div.className = 'article';
         div.innerHTML = `
