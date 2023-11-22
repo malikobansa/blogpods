@@ -23,6 +23,4 @@ fetch("https://newsapi.org/v2/top-headlines?country=ng&apiKey=5923c983e11d4d01a2
     .then((data) => {
         setArticles(data.articles);
     })
-    .catch((error) => {
-        console.error("Error fetching articles:", error);
-    });
+    
